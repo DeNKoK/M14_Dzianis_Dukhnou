@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "cLoH9ymdebCPfECu8yFpINSlpO7EpNjuHCxVxNC4BpjnLQEy55tx0Abxk7ZYYd1iPTI10su1nPO1W1iLAM8KzQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Dzianis_Dukhnou\\source\\repos\\M11_Dzianis_Dukhnou\\M11_Dzianis_Dukhnou.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dzianis_Dukhnou\\.nuget\\packages\\bodi\\1.5.0\\bodi.1.5.0.nupkg.sha512",
+    "C:\\Users\\Dzianis_Dukhnou\\.nuget\\packages\\cucumber.messages\\6.0.1\\cucumber.messages.6.0.1.nupkg.sha512",
+    "C:\\Users\\Dzianis_Dukhnou\\.nuget\\packages\\gherkin\\19.0.3\\gherkin.19.0.3.nupkg.sha512",
+    "C:\\Users\\Dzianis_Dukhnou\\.nuget\\packages\\google.protobuf\\3.7.0\\google.protobuf.3.7.0.nupkg.sha512",
+    "C:\\Users\\Dzianis_Dukhnou\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
+    "C:\\Users\\Dzianis_Dukhnou\\.nuget\\packages\\microsoft.net.test.sdk\\16.5.0\\microsoft.net.test.sdk.16.5.0.nupkg.sha512",
+    "C:\\Users\\Dzianis_Dukhnou\\.nuget\\packages\\nunit\\3.13.2\\nunit.3.13.2.nupkg.sha512",
+    "C:\\Users\\Dzianis_Dukhnou\\.nuget\\packages\\nunit3testadapter\\3.16.1\\nunit3testadapter.3.16.1.nupkg.sha512",
+    "C:\\Users\\Dzianis_Dukhnou\\.nuget\\packages\\selenium.support\\3.141.0\\selenium.support.3.141.0.nupkg.sha512",
+    "C:\\Users\\Dzianis_Dukhnou\\.nuget\\packages\\selenium.webdriver\\3.141.0\\selenium.webdriver.3.141.0.nupkg.sha512",
+    "C:\\Users\\Dzianis_Dukhnou\\.nuget\\packages\\selenium.webdriver.chromedriver\\91.0.4472.10100\\selenium.webdriver.chromedriver.91.0.4472.10100.nupkg.sha512",
+    "C:\\Users\\Dzianis_Dukhnou\\.nuget\\packages\\selenium.webdriver.geckodriver.win64\\0.29.1\\selenium.webdriver.geckodriver.win64.0.29.1.nupkg.sha512",
+    "C:\\Users\\Dzianis_Dukhnou\\.nuget\\packages\\specflow\\3.9.8\\specflow.3.9.8.nupkg.sha512",
+    "C:\\Users\\Dzianis_Dukhnou\\.nuget\\packages\\specflow.internal.json\\1.0.8\\specflow.internal.json.1.0.8.nupkg.sha512",
+    "C:\\Users\\Dzianis_Dukhnou\\.nuget\\packages\\specflow.nunit\\3.9.8\\specflow.nunit.3.9.8.nupkg.sha512",
+    "C:\\Users\\Dzianis_Dukhnou\\.nuget\\packages\\specflow.tools.msbuild.generation\\3.9.8\\specflow.tools.msbuild.generation.3.9.8.nupkg.sha512",
+    "C:\\Users\\Dzianis_Dukhnou\\.nuget\\packages\\system.valuetuple\\4.4.0\\system.valuetuple.4.4.0.nupkg.sha512",
+    "C:\\Users\\Dzianis_Dukhnou\\.nuget\\packages\\webdriverchromedriver\\2.10.0\\webdriverchromedriver.2.10.0.nupkg.sha512"
+  ],
+  "logs": []
+}
