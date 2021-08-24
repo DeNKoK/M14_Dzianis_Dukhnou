@@ -1,5 +1,6 @@
 ﻿using OpenQA.Selenium;
 using M11_Dzianis_Dukhnou.Entities;
+using log4net;
 
 namespace M11_Dzianis_Dukhnou.WebObjects
 {
@@ -7,7 +8,12 @@ namespace M11_Dzianis_Dukhnou.WebObjects
     {
         private static readonly By StartPageLocator = By.XPath("//span[text() = 'Отправить']");
 
-        public LetterPage() : base(StartPageLocator, "Letter Page") { }
+        private static ILog Log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+
+        public LetterPage() : base(StartPageLocator, "Letter Page") 
+        {
+            Log.Info($"The {_title} is open");
+        }
 
         private readonly BaseElement _toFieldInput = new BaseElement(By.XPath("//div[@class = 'composeYabbles']"));
         private readonly BaseElement _toFieldOutput = new BaseElement(By.XPath("//div[@class = 'ComposeYabble-Text']"));

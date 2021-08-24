@@ -6,11 +6,11 @@ namespace M11_Dzianis_Dukhnou
 {
     public abstract class Element : IWebElementBase
     {
-        public By locator { get; protected set; }
+        public By Locator { get; protected set; }
 
         protected Element(By locator)
         {
-            this.locator = locator;
+            this.Locator = locator;
         }
 
         public abstract void WaitForIsVisible();

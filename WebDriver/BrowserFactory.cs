@@ -13,22 +13,22 @@ namespace M11_Dzianis_Dukhnou.WebDriver
             {
                 case BrowserType.Chrome:
                     {
-                        driver = new ChromeBrowser(timeOutSec).driver;
+                        driver = new ChromeBrowser(timeOutSec).Driver;
                         break;
                     }
                 case BrowserType.RemoteChrome:
                     {
-                        driver = new RemoteChromeBrowser(computer, timeOutSec).driver;
+                        driver = new RemoteChromeBrowser(computer, timeOutSec).Driver;
                         break;
                     }
                 case BrowserType.Firefox:
                     {
-                        driver = new FirefoxBrowser(timeOutSec).driver;
+                        driver = new FirefoxBrowser(timeOutSec).Driver;
                         break;
                     }
                 case BrowserType.RemoteFirefox:
                     {
-                        driver = new RemoteFirefoxBrowser(timeOutSec).driver;
+                        driver = new RemoteFirefoxBrowser(timeOutSec).Driver;
                         break;
                     }
             }

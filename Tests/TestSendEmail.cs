@@ -5,7 +5,6 @@ namespace M11_Dzianis_Dukhnou.Tests
     [TestFixture]
     public class TestSendEmail : BaseTest
     {
-
         [SetUp]
         public void TestSendEmail_SetUp()
         {
@@ -19,6 +18,7 @@ namespace M11_Dzianis_Dukhnou.Tests
         [TearDown]
         public void TestSendEmail_TearDown()
         {
+            Log.Info($"Execution of postconditions");
             _sentPage = _homePage.OpenSentLetters();
             _sentPage.DeleteAll();
         }

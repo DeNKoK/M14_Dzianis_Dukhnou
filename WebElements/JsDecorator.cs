@@ -4,12 +4,12 @@ namespace M11_Dzianis_Dukhnou.WebElements
 {
     public class JsDecorator : ElementDecorator
     {
-        public JsDecorator(BaseElement webElement) : base(webElement, webElement.locator) { }
+        public JsDecorator(BaseElement webElement) : base(webElement, webElement.Locator) { }
 
         public override void Click()
         {
             WaitForIsVisible();
-            jsExecutor.ExecuteScript("arguments[0].click();", Browser.GetDriver().FindElement(_locator));
+            jsExecutor.ExecuteScript("arguments[0].click();", Browser.GetDriver().FindElement(Locator));
         }
     }
 }

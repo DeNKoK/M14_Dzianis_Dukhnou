@@ -11,14 +11,14 @@ namespace M11_Dzianis_Dukhnou.WebDriver
         private readonly Computer _computer;
         private readonly int _timeOutSec;
 
-        public IWebDriver driver
+        public IWebDriver Driver
         {
             get
             {
                 if (_driver == null)
                 {
                     var options = new ChromeOptions();
-                    options.PlatformName = _computer.OS.name;
+                    options.PlatformName = _computer.OperationSystem.Name;
                     options.AddArguments
                         (
                         "enable-automation",
@@ -33,7 +33,7 @@ namespace M11_Dzianis_Dukhnou.WebDriver
                         (
                         new Uri(Configuration.RemoteNode),
                         options.ToCapabilities(),
-                        TimeSpan.FromSeconds(timeOutSec)
+                        TimeSpan.FromSeconds(TimeOutSec)
                         );
                 }
 
@@ -41,7 +41,7 @@ namespace M11_Dzianis_Dukhnou.WebDriver
             }
         }
 
-        public int timeOutSec
+        public int TimeOutSec
         {
             get
             {

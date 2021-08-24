@@ -1,6 +1,7 @@
 ﻿using OpenQA.Selenium;
 using M11_Dzianis_Dukhnou.Entities;
 using M11_Dzianis_Dukhnou.WebElements;
+using log4net;
 
 namespace M11_Dzianis_Dukhnou.WebObjects
 {
@@ -8,7 +9,12 @@ namespace M11_Dzianis_Dukhnou.WebObjects
     {
         private static readonly By StartPageLocator = By.ClassName("passp-auth-content");
 
-        public LoginPage() : base(StartPageLocator, "Login Page") { }
+        private static ILog Log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+
+        public LoginPage() : base(StartPageLocator, "Login Page")
+        {
+            Log.Info($"The {_title} is open");
+        }
 
         private BaseElement _submitButton = new BaseElement(By.XPath("//button[contains(@class, 'Button2') and @type = 'submit']"));
         private readonly BaseElement _loginField = new BaseElement(By.Id("passp-field-login"));

@@ -52,6 +52,10 @@
               "target": "Package",
               "version": "[3.16.1, )"
             },
+            "ReportUnit": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
             "Selenium.Support": {
               "target": "Package",
               "version": "[3.141.0, )"
@@ -80,9 +84,17 @@
               "target": "Package",
               "version": "[3.9.8, )"
             },
+            "TrxToHtml.TrxerConsole": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "WebDriverChromeDriver": {
               "target": "Package",
               "version": "[2.10.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.12, )"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"

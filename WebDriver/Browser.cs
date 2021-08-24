@@ -1,17 +1,23 @@
-﻿using OpenQA.Selenium;
+﻿using log4net;
+using NUnit.Framework;
+using NUnit.Framework.Interfaces;
+using OpenQA.Selenium;
 using System;
+using System.IO;
+using System.Reflection;
 
 namespace M11_Dzianis_Dukhnou.WebDriver
 {
     public class Browser
     {
-        private static IWebDriver _driver;
+        public static IWebDriver _driver;
         private static Browser _currentInstance;
         private static string _browser;
         public static Computer _currentComputer;
         public static BrowserType _currentBrowser;
         public static double _timeoutForElement;
         public static int ImplWait;
+        private static ILog Log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
         public Browser()
         {
@@ -50,7 +56,7 @@ namespace M11_Dzianis_Dukhnou.WebDriver
         {
             _driver.Navigate().GoToUrl(Configuration.StartUrl);
         }
-        
+
         public static void Refresh()
         {
             _driver.Navigate().Refresh();
@@ -59,6 +65,23 @@ namespace M11_Dzianis_Dukhnou.WebDriver
         public static IWebDriver GetDriver()
         {
             return _driver;
+        }
+
+        public static void TakeScreenshotOfFailure()
+        {
+            string solutionLocation = Path.GetDirectoryName(Directory.GetParent(Assembly.GetExecutingAssembly().Location).Parent.Parent.FullName);
+
+            if (TestContext.CurrentContext.Result.Outcome != ResultState.Success)
+            {
+                var screenshot = ((ITakesScreenshot)_driver).GetScreenshot();
+                screenshot.SaveAsFile
+                    (
+                        $@"{solutionLocation}\Screenshots\{TestContext.CurrentContext.Test.Name}_{DateTime.Now:yyyy-MM-dd_HH-mm-ss}.jpg",
+                        ScreenshotImageFormat.Jpeg
+                    );
+                Log.Info("The screenshot of the failure has been created");
+
+            }
         }
 
         public static void Quit()

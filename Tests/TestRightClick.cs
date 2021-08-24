@@ -5,7 +5,6 @@ namespace M11_Dzianis_Dukhnou.Tests
     [TestFixture]
     public class TestRightClick : BaseTest
     {
-
         [SetUp]
         public void TestRightClick_SetUp()
         {
@@ -19,6 +18,7 @@ namespace M11_Dzianis_Dukhnou.Tests
         [TearDown]
         public void TestRightClick_TearDown()
         {
+            Log.Info($"Execution of postconditions");
             _inboxPage = _homePage.OpenInboxLetters();
             _inboxPage.DeleteAll();
         }

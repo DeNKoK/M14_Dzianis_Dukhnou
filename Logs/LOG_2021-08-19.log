@@ -1,0 +1,16 @@
+﻿2021-08-19 23:23:23,748 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.OneTimeSetUpTest - !!!Execution of test(s) have been started!!!
+2021-08-19 23:23:29,922 [NonParallelWorker] DEBUG M11_Dzianis_Dukhnou.BaseElement - Waiting for the element: By.CssSelector: .button2_theme_mail-white
+2021-08-19 23:23:30,199 [NonParallelWorker] DEBUG M11_Dzianis_Dukhnou.BaseElement - Waiting for the element: By.CssSelector: .button2_theme_mail-white
+2021-08-19 23:23:30,798 [NonParallelWorker] DEBUG M11_Dzianis_Dukhnou.BaseElement - Waiting for the element: By.ClassName[Contains]: passp-auth-content
+2021-08-19 23:23:30,838 [NonParallelWorker] DEBUG M11_Dzianis_Dukhnou.BaseElement - Waiting for the element: By.Id: passp-field-login
+2021-08-19 23:23:30,913 [NonParallelWorker] DEBUG M11_Dzianis_Dukhnou.BaseElement - Waiting for the element: By.XPath: //button[contains(@class, 'Button2') and @type = 'submit']
+2021-08-19 23:23:30,959 [NonParallelWorker] DEBUG M11_Dzianis_Dukhnou.BaseElement - Waiting for the element: By.Id: passp-field-passwd
+2021-08-19 23:23:31,527 [NonParallelWorker] DEBUG M11_Dzianis_Dukhnou.BaseElement - Waiting for the element: By.XPath: //button[contains(@class, 'Button2') and @type = 'submit']
+2021-08-19 23:23:31,559 [NonParallelWorker] DEBUG M11_Dzianis_Dukhnou.BaseElement - Waiting for the element: By.XPath: //a[@href = 'https://360.yandex.ru/?from=mail-header-360']
+2021-08-19 23:23:33,833 [NonParallelWorker] DEBUG M11_Dzianis_Dukhnou.BaseElement - Waiting for the element: By.XPath: //span[text() ='DzianisM6']
+2021-08-19 23:23:33,882 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Login - Passed
+2021-08-19 23:23:33,882 [NonParallelWorker] WARN M11_Dzianis_Dukhnou.BaseTest - Test Warning
+2021-08-19 23:23:33,883 [NonParallelWorker] DEBUG M11_Dzianis_Dukhnou.BaseElement - Waiting for the element: By.XPath: //div[contains(@class, 'user-pic user-pic')]
+2021-08-19 23:23:34,142 [NonParallelWorker] DEBUG M11_Dzianis_Dukhnou.BaseElement - Waiting for the element: By.CssSelector: .user-account_has-subname_yes
+2021-08-19 23:23:34,163 [NonParallelWorker] DEBUG M11_Dzianis_Dukhnou.BaseElement - Waiting for the element: By.XPath: //span[text() = 'Выйти из сервисов Яндекса']
+2021-08-19 23:23:36,301 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.OneTimeSetUpTest - !!!Execution of test(s) have been finished!!!

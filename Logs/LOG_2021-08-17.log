@@ -1,0 +1,114 @@
+﻿2021-08-17 21:35:29,200 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been started!!!
+2021-08-17 21:35:38,567 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Login - Passed
+2021-08-17 21:35:41,079 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been finished!!!
+2021-08-17 21:35:41,080 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!AFTER ALL!!!
+2021-08-17 21:41:14,465 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been started!!!
+2021-08-17 21:41:39,903 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - CreatingNumberOfDraftLetters_VerifyMoveUpButton(5) - Passed
+2021-08-17 21:42:23,095 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - CreatingNumberOfDraftLetters_VerifyRightClickDelete(11) - Passed
+2021-08-17 21:42:26,681 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been finished!!!
+2021-08-17 21:42:26,683 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been started!!!
+2021-08-17 21:42:43,725 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - CreatingDraftEmail_VerifyContent - Passed
+2021-08-17 21:43:02,603 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - CreatingDraftEmail_VerifyDarftFolder - Failed:Error
+2021-08-17 21:43:06,275 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been finished!!!
+2021-08-17 21:43:06,275 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been started!!!
+2021-08-17 21:43:17,520 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Login - Passed
+2021-08-17 21:43:20,557 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been finished!!!
+2021-08-17 21:43:20,557 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been started!!!
+2021-08-17 21:43:48,567 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - MoveLetterFromDraftToInbox_VerifyDraftFolder - Passed
+2021-08-17 21:44:09,115 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - MoveLetterFromDraftToInput_VerifyInputFolder - Passed
+2021-08-17 21:44:12,284 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been finished!!!
+2021-08-17 21:44:12,284 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been started!!!
+2021-08-17 21:44:27,645 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - SendingDraftEmail_CheckDraftFolder - Failed:Error
+2021-08-17 21:44:45,484 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - SendingDraftEmail_CheckSentFolder - Failed:Error
+2021-08-17 21:44:49,482 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been finished!!!
+2021-08-17 21:44:49,482 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!AFTER ALL!!!
+2021-08-17 21:47:34,713 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been started!!!
+2021-08-17 21:47:51,553 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - CreatingDraftEmail_VerifyDarftFolder - Passed
+2021-08-17 21:47:54,999 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been finished!!!
+2021-08-17 21:47:55,000 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!AFTER ALL!!!
+2021-08-17 21:48:23,224 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been started!!!
+2021-08-17 21:48:51,092 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - SendingDraftEmail_CheckDraftFolder - Passed
+2021-08-17 21:49:12,178 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - SendingDraftEmail_CheckSentFolder - Passed
+2021-08-17 21:49:15,259 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been finished!!!
+2021-08-17 21:49:15,260 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!AFTER ALL!!!
+2021-08-17 22:00:46,491 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.SetUpClass - !!!Execution of test(s) have been started!!!
+2021-08-17 22:01:01,118 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.SetUpClass - CreatingDraftEmail_VerifyContent - Passed
+2021-08-17 22:01:16,175 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.SetUpClass - CreatingDraftEmail_VerifyDarftFolder - Passed
+2021-08-17 22:01:18,754 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.SetUpClass - !!!Execution of test(s) have been finished!!!
+2021-08-17 22:01:41,897 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.SetUpClass - !!!Execution of test(s) have been started!!!
+2021-08-17 22:01:56,191 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.SetUpClass - CreatingDraftEmail_VerifyContent - Passed
+2021-08-17 22:02:11,699 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.SetUpClass - CreatingDraftEmail_VerifyDarftFolder - Passed
+2021-08-17 22:02:14,131 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.SetUpClass - !!!Execution of test(s) have been finished!!!
+2021-08-17 22:02:14,209 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.SetUpClass - !!!Execution of test(s) have been started!!!
+2021-08-17 22:02:23,613 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.SetUpClass - Login - Passed
+2021-08-17 22:02:26,362 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.SetUpClass - !!!Execution of test(s) have been finished!!!
+2021-08-17 22:14:55,703 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.SetUpClass - !!!Execution of test(s) have been started!!!
+2021-08-17 22:15:10,407 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - CreatingDraftEmail_VerifyContent - Passed
+2021-08-17 22:15:26,446 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - CreatingDraftEmail_VerifyDarftFolder - Passed
+2021-08-17 22:15:38,690 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Login - Passed
+2021-08-17 22:15:41,344 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.SetUpClass - !!!Execution of test(s) have been finished!!!
+2021-08-17 22:17:42,160 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.SetUpClass - !!!Execution of test(s) have been started!!!
+2021-08-17 22:17:56,420 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - CreatingDraftEmail_VerifyContent - Passed
+2021-08-17 22:18:12,371 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - CreatingDraftEmail_VerifyDarftFolder - Passed
+2021-08-17 22:18:24,034 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Login - Passed
+2021-08-17 22:18:26,395 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.SetUpClass - !!!Execution of test(s) have been finished!!!
+2021-08-17 22:32:06,342 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - CreatingDraftEmail_VerifyContent - Passed
+2021-08-17 22:32:21,812 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - CreatingDraftEmail_VerifyDarftFolder - Passed
+2021-08-17 22:32:33,101 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Login - Passed
+2021-08-17 22:34:25,898 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.OneTimeSetUpTest - !!!Execution of test(s) have been started!!!
+2021-08-17 22:34:40,352 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - CreatingDraftEmail_VerifyContent - Passed
+2021-08-17 22:34:56,169 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - CreatingDraftEmail_VerifyDarftFolder - Passed
+2021-08-17 22:35:07,143 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Login - Passed
+2021-08-17 22:35:09,738 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.OneTimeSetUpTest - !!!Execution of test(s) have been finished!!!
+2021-08-17 22:38:13,970 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.OneTimeSetUpTest - !!!Execution of test(s) have been started!!!
+2021-08-17 22:38:23,161 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Login - Passed
+2021-08-17 22:38:25,888 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.OneTimeSetUpTest - !!!Execution of test(s) have been finished!!!
+2021-08-17 22:50:38,222 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.OneTimeSetUpTest - !!!Execution of test(s) have been started!!!
+2021-08-17 22:50:47,979 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Login - Passed
+2021-08-17 22:50:47,979 [NonParallelWorker] WARN M11_Dzianis_Dukhnou.BaseTest - Test Warning
+2021-08-17 22:50:50,471 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.OneTimeSetUpTest - !!!Execution of test(s) have been finished!!!
+2021-08-17 23:14:01,842 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.OneTimeSetUpTest - !!!Execution of test(s) have been started!!!
+2021-08-17 23:14:24,583 [NonParallelWorker] ERROR M11_Dzianis_Dukhnou.BaseElement - The element By.XPath: //span[@Title2 = 'dsaDvBinxE'] is not displayed
+2021-08-17 23:14:25,383 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - CreatingDraftEmail_VerifyDarftFolder - Failed
+2021-08-17 23:14:25,383 [NonParallelWorker] WARN M11_Dzianis_Dukhnou.BaseTest - Test Warning
+2021-08-17 23:14:28,162 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.OneTimeSetUpTest - !!!Execution of test(s) have been finished!!!
+2021-08-17 23:15:42,338 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.OneTimeSetUpTest - !!!Execution of test(s) have been started!!!
+2021-08-17 23:15:55,496 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - CreatingDraftEmail_VerifyDarftFolder - Failed:Error
+2021-08-17 23:15:55,496 [NonParallelWorker] WARN M11_Dzianis_Dukhnou.BaseTest - Test Warning
+2021-08-17 23:15:58,174 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.OneTimeSetUpTest - !!!Execution of test(s) have been finished!!!
+2021-08-17 23:16:35,977 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.OneTimeSetUpTest - !!!Execution of test(s) have been started!!!
+2021-08-17 23:16:49,267 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - CreatingDraftEmail_VerifyDarftFolder - Passed
+2021-08-17 23:16:49,268 [NonParallelWorker] WARN M11_Dzianis_Dukhnou.BaseTest - Test Warning
+2021-08-17 23:16:51,749 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.OneTimeSetUpTest - !!!Execution of test(s) have been finished!!!
+2021-08-17 23:20:08,377 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.OneTimeSetUpTest - !!!Execution of test(s) have been started!!!
+2021-08-17 23:20:13,980 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseElement - Waiting for the element: By.CssSelector: .button2_theme_mail-white
+2021-08-17 23:20:14,208 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseElement - Waiting for the element: By.CssSelector: .button2_theme_mail-white
+2021-08-17 23:20:14,848 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseElement - Waiting for the element: By.ClassName[Contains]: passp-auth-content
+2021-08-17 23:20:14,892 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseElement - Waiting for the element: By.Id: passp-field-login
+2021-08-17 23:20:14,973 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseElement - Waiting for the element: By.XPath: //button[contains(@class, 'Button2') and @type = 'submit']
+2021-08-17 23:20:15,012 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseElement - Waiting for the element: By.Id: passp-field-passwd
+2021-08-17 23:20:15,592 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseElement - Waiting for the element: By.XPath: //button[contains(@class, 'Button2') and @type = 'submit']
+2021-08-17 23:20:15,626 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseElement - Waiting for the element: By.XPath: //a[@href = 'https://360.yandex.ru/?from=mail-header-360']
+2021-08-17 23:20:17,857 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseElement - Waiting for the element: By.XPath: //span[text() ='DzianisM6']
+2021-08-17 23:20:17,910 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Login - Passed
+2021-08-17 23:20:17,910 [NonParallelWorker] WARN M11_Dzianis_Dukhnou.BaseTest - Test Warning
+2021-08-17 23:20:17,911 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseElement - Waiting for the element: By.XPath: //div[contains(@class, 'user-pic user-pic')]
+2021-08-17 23:20:18,164 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseElement - Waiting for the element: By.CssSelector: .user-account_has-subname_yes
+2021-08-17 23:20:18,191 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseElement - Waiting for the element: By.XPath: //span[text() = 'Выйти из сервисов Яндекса']
+2021-08-17 23:20:20,428 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.OneTimeSetUpTest - !!!Execution of test(s) have been finished!!!
+2021-08-17 23:22:44,066 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.OneTimeSetUpTest - !!!Execution of test(s) have been started!!!
+2021-08-17 23:22:49,643 [NonParallelWorker] DEBUG M11_Dzianis_Dukhnou.BaseElement - Waiting for the element: By.CssSelector: .button2_theme_mail-white
+2021-08-17 23:22:49,874 [NonParallelWorker] DEBUG M11_Dzianis_Dukhnou.BaseElement - Waiting for the element: By.CssSelector: .button2_theme_mail-white
+2021-08-17 23:22:50,417 [NonParallelWorker] DEBUG M11_Dzianis_Dukhnou.BaseElement - Waiting for the element: By.ClassName[Contains]: passp-auth-content
+2021-08-17 23:22:50,456 [NonParallelWorker] DEBUG M11_Dzianis_Dukhnou.BaseElement - Waiting for the element: By.Id: passp-field-login
+2021-08-17 23:22:50,535 [NonParallelWorker] DEBUG M11_Dzianis_Dukhnou.BaseElement - Waiting for the element: By.XPath: //button[contains(@class, 'Button2') and @type = 'submit']
+2021-08-17 23:22:50,574 [NonParallelWorker] DEBUG M11_Dzianis_Dukhnou.BaseElement - Waiting for the element: By.Id: passp-field-passwd
+2021-08-17 23:22:51,186 [NonParallelWorker] DEBUG M11_Dzianis_Dukhnou.BaseElement - Waiting for the element: By.XPath: //button[contains(@class, 'Button2') and @type = 'submit']
+2021-08-17 23:22:51,219 [NonParallelWorker] DEBUG M11_Dzianis_Dukhnou.BaseElement - Waiting for the element: By.XPath: //a[@href = 'https://360.yandex.ru/?from=mail-header-360']
+2021-08-17 23:22:53,654 [NonParallelWorker] DEBUG M11_Dzianis_Dukhnou.BaseElement - Waiting for the element: By.XPath: //span[text() ='DzianisM6']
+2021-08-17 23:22:53,854 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Login - Passed
+2021-08-17 23:22:53,854 [NonParallelWorker] WARN M11_Dzianis_Dukhnou.BaseTest - Test Warning
+2021-08-17 23:22:53,855 [NonParallelWorker] DEBUG M11_Dzianis_Dukhnou.BaseElement - Waiting for the element: By.XPath: //div[contains(@class, 'user-pic user-pic')]
+2021-08-17 23:22:54,118 [NonParallelWorker] DEBUG M11_Dzianis_Dukhnou.BaseElement - Waiting for the element: By.CssSelector: .user-account_has-subname_yes
+2021-08-17 23:22:54,163 [NonParallelWorker] DEBUG M11_Dzianis_Dukhnou.BaseElement - Waiting for the element: By.XPath: //span[text() = 'Выйти из сервисов Яндекса']
+2021-08-17 23:22:56,325 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.OneTimeSetUpTest - !!!Execution of test(s) have been finished!!!

@@ -5,7 +5,6 @@ namespace M11_Dzianis_Dukhnou.Tests
     [TestFixture]
     public class TestDraftEmail : BaseTest
     {
-
         [SetUp]
         public void TestDraftEmail_SetUp()
         {
@@ -19,6 +18,7 @@ namespace M11_Dzianis_Dukhnou.Tests
         [TearDown]
         public void TestDraftEmail_TearDown()
         {
+            Log.Info($"Execution of postconditions");
             _draftPage = _homePage.OpenDraftLetters();
             _draftPage.DeleteAll();
         }

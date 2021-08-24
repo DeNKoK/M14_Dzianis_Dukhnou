@@ -5,7 +5,6 @@ namespace M11_Dzianis_Dukhnou.Tests
     [TestFixture]
     public class TestCreatingNumberOfLetters : BaseTest
     {
-
         [SetUp]
         public void TestCreatingNumberOfLetters_SetUp()
         {
@@ -19,6 +18,7 @@ namespace M11_Dzianis_Dukhnou.Tests
         [TearDown]
         public void TestCreatingNumberOfLetters_TearDown()
         {
+            Log.Info($"Execution of postconditions");
             _draftPage.DeleteAll();
         }
 
@@ -35,7 +35,7 @@ namespace M11_Dzianis_Dukhnou.Tests
             Assert.AreEqual(number - 1, _draftPage.CountDraftLetters(),
                 "The count of draft letters was not decreased after deleting one letter");
         }
-        
+
         [TestCase(5)]
         public void CreatingNumberOfDraftLetters_VerifyMoveUpButton(int number)
         {

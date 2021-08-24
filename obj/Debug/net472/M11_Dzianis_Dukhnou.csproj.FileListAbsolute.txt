@@ -1,3 +1,4 @@
+C:\Users\Dzianis_Dukhnou\source\repos\M11_Dzianis_Dukhnou\bin\Debug\net472\WebDriver.dll
 C:\Users\Dzianis_Dukhnou\source\repos\M11_Dzianis_Dukhnou\bin\Debug\net472\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
 C:\Users\Dzianis_Dukhnou\source\repos\M11_Dzianis_Dukhnou\bin\Debug\net472\NUnit3.TestAdapter.dll
 C:\Users\Dzianis_Dukhnou\source\repos\M11_Dzianis_Dukhnou\bin\Debug\net472\NUnit3.TestAdapter.pdb
@@ -10,10 +11,10 @@ C:\Users\Dzianis_Dukhnou\source\repos\M11_Dzianis_Dukhnou\bin\Debug\net472\BoDi.
 C:\Users\Dzianis_Dukhnou\source\repos\M11_Dzianis_Dukhnou\bin\Debug\net472\Cucumber.Messages.dll
 C:\Users\Dzianis_Dukhnou\source\repos\M11_Dzianis_Dukhnou\bin\Debug\net472\Gherkin.dll
 C:\Users\Dzianis_Dukhnou\source\repos\M11_Dzianis_Dukhnou\bin\Debug\net472\Google.Protobuf.dll
+C:\Users\Dzianis_Dukhnou\source\repos\M11_Dzianis_Dukhnou\bin\Debug\net472\log4net.dll
 C:\Users\Dzianis_Dukhnou\source\repos\M11_Dzianis_Dukhnou\bin\Debug\net472\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 C:\Users\Dzianis_Dukhnou\source\repos\M11_Dzianis_Dukhnou\bin\Debug\net472\nunit.framework.dll
 C:\Users\Dzianis_Dukhnou\source\repos\M11_Dzianis_Dukhnou\bin\Debug\net472\WebDriver.Support.dll
-C:\Users\Dzianis_Dukhnou\source\repos\M11_Dzianis_Dukhnou\bin\Debug\net472\WebDriver.dll
 C:\Users\Dzianis_Dukhnou\source\repos\M11_Dzianis_Dukhnou\bin\Debug\net472\TechTalk.SpecFlow.dll
 C:\Users\Dzianis_Dukhnou\source\repos\M11_Dzianis_Dukhnou\bin\Debug\net472\SpecFlow.Internal.Json.dll
 C:\Users\Dzianis_Dukhnou\source\repos\M11_Dzianis_Dukhnou\bin\Debug\net472\System.ValueTuple.dll
@@ -24,4 +25,5 @@ C:\Users\Dzianis_Dukhnou\source\repos\M11_Dzianis_Dukhnou\obj\Debug\net472\M11_D
 C:\Users\Dzianis_Dukhnou\source\repos\M11_Dzianis_Dukhnou\obj\Debug\net472\M11_Dzianis_Dukhnou.csproj.CopyComplete
 C:\Users\Dzianis_Dukhnou\source\repos\M11_Dzianis_Dukhnou\obj\Debug\net472\M11_Dzianis_Dukhnou.dll
 C:\Users\Dzianis_Dukhnou\source\repos\M11_Dzianis_Dukhnou\obj\Debug\net472\M11_Dzianis_Dukhnou.pdb
+C:\Users\Dzianis_Dukhnou\source\repos\M11_Dzianis_Dukhnou\bin\Debug\net472\TrxerConsole.exe
 C:\Users\Dzianis_Dukhnou\source\repos\M11_Dzianis_Dukhnou\obj\Debug\net472\M11_Dzianis_Dukhnou.csprojAssemblyReference.cache

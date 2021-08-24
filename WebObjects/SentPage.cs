@@ -1,4 +1,5 @@
-﻿using OpenQA.Selenium;
+﻿using log4net;
+using OpenQA.Selenium;
 
 namespace M11_Dzianis_Dukhnou.WebObjects
 {
@@ -6,7 +7,12 @@ namespace M11_Dzianis_Dukhnou.WebObjects
     {
         private static readonly By StartPageLocator = By.XPath("//div[@title = 'Закрепить']");
 
-        public SentPage() : base(StartPageLocator, "Sent Page") { }
+        private static ILog Log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+
+        public SentPage() : base(StartPageLocator, "Sent Page")
+        {
+            Log.Info($"The {_title} is open");
+        }
 
         private readonly BaseElement _selectAllCheckBox = new BaseElement(By.XPath("//span[@class = 'checkbox_view']"));
         private readonly BaseElement _deleteButton = new BaseElement(By.XPath("//div[contains(@title, 'Delete')]"));
@@ -20,7 +26,7 @@ namespace M11_Dzianis_Dukhnou.WebObjects
 
         public LetterPage OpenLetterByOrder(int number)
         {
-            _letter.GetElements()[number-1].Click();
+            _letter.GetElements()[number - 1].Click();
 
             return new LetterPage();
         }

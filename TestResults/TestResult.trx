@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="cf61fd66-fa3b-4fd3-a6aa-db6b21ee5eb5" name="Dzianis_Dukhnou@EPBYMINW069C 2021-08-24 23:38:33" runUser="MINSK\Dzianis_Dukhnou" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2021-08-24T23:38:33.0478250+03:00" queuing="2021-08-24T23:38:33.0478250+03:00" start="2021-08-24T23:38:01.5151168+03:00" finish="2021-08-24T23:42:12.7667159+03:00" />
+  <TestSettings name="default" id="389a8cd9-1b6c-408d-8d3d-5701eb1f8930">
+    <Deployment runDeploymentRoot="Dzianis_Dukhnou_EPBYMINW069C_2021-08-24_23_38_33" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="d413fd88-faf6-4275-b12e-67ef2231e195" testId="354bead6-69b9-350c-51a3-97d94041fdb0" testName="MoveLetterFromDraftToInbox_VerifyDraftFolder" computerName="EPBYMINW069C" duration="00:00:32.6830000" startTime="2021-08-24T23:40:19.1934548+03:00" endTime="2021-08-24T23:40:51.8764987+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d413fd88-faf6-4275-b12e-67ef2231e195">
+      <Output>
+        <StdOut>2021-08-24 23:40:26,534 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Log in to the email - [Console]&#xD;
+2021-08-24 23:40:26,592 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.StartPage - The Start Page is open - [Console]&#xD;
+2021-08-24 23:40:27,883 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LoginPage - The Login Page is open - [Console]&#xD;
+2021-08-24 23:40:32,521 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.HomePage - The Home Page is open - [Console]&#xD;
+2021-08-24 23:40:33,393 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:40:36,381 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.DraftPage - The Draft Page is open - [Console]&#xD;
+2021-08-24 23:40:36,760 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.RightClickMenuPage - The RightClick Page is open - [Console]&#xD;
+2021-08-24 23:40:47,347 [NonParallelWorker] ERROR M11_Dzianis_Dukhnou.BaseElement - The element By.XPath: //span[@Title = 'ClClJcgvkNPDWDA'] is not displayed - [Console]&#xD;
+2021-08-24 23:40:47,347 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Execution of postconditions - [Console]&#xD;
+2021-08-24 23:40:47,962 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.InboxPage - The Inbox Page is open - [Console]&#xD;
+2021-08-24 23:40:48,462 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - MoveLetterFromDraftToInbox_VerifyDraftFolder - Passed - [Console]&#xD;
+2021-08-24 23:40:48,462 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Log out - [Console]&#xD;
+2021-08-24 23:40:48,748 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.UserMenuPage - The UserMenu Page is open - [Console]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0be7e50b-d64c-422a-9694-66fba36635ad" testId="d0cdf345-d655-469a-adbb-671eb0c95de7" testName="Login" computerName="EPBYMINW069C" duration="00:00:18.2390000" startTime="2021-08-24T23:40:00.9529308+03:00" endTime="2021-08-24T23:40:19.1924610+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0be7e50b-d64c-422a-9694-66fba36635ad">
+      <Output>
+        <StdOut>2021-08-24 23:40:09,364 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Log in to the email - [Console]&#xD;
+2021-08-24 23:40:09,419 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.StartPage - The Start Page is open - [Console]&#xD;
+2021-08-24 23:40:11,334 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LoginPage - The Login Page is open - [Console]&#xD;
+2021-08-24 23:40:15,329 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.HomePage - The Home Page is open - [Console]&#xD;
+2021-08-24 23:40:15,360 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Login - Passed - [Console]&#xD;
+2021-08-24 23:40:15,360 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Log out - [Console]&#xD;
+2021-08-24 23:40:15,815 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.UserMenuPage - The UserMenu Page is open - [Console]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c942973e-5636-4ec2-ba5d-4099f08b59c9" testId="bb7285ee-70f2-ebb9-d707-7eabaedc7d59" testName="CreatingDraftEmail_VerifyDarftFolder" computerName="EPBYMINW069C" duration="00:00:20.6830000" startTime="2021-08-24T23:39:40.2700147+03:00" endTime="2021-08-24T23:40:00.9529308+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c942973e-5636-4ec2-ba5d-4099f08b59c9">
+      <Output>
+        <StdOut>2021-08-24 23:39:46,744 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Log in to the email - [Console]&#xD;
+2021-08-24 23:39:47,071 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.StartPage - The Start Page is open - [Console]&#xD;
+2021-08-24 23:39:48,388 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LoginPage - The Login Page is open - [Console]&#xD;
+2021-08-24 23:39:53,032 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.HomePage - The Home Page is open - [Console]&#xD;
+2021-08-24 23:39:54,320 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:39:56,986 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.DraftPage - The Draft Page is open - [Console]&#xD;
+2021-08-24 23:39:57,020 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Execution of postconditions - [Console]&#xD;
+2021-08-24 23:39:57,287 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.DraftPage - The Draft Page is open - [Console]&#xD;
+2021-08-24 23:39:57,786 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - CreatingDraftEmail_VerifyDarftFolder - Passed - [Console]&#xD;
+2021-08-24 23:39:57,786 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Log out - [Console]&#xD;
+2021-08-24 23:39:58,061 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.UserMenuPage - The UserMenu Page is open - [Console]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fd2d6570-5485-4728-ae74-15c11622ccc5" testId="48fe5c1f-16bc-b39f-c518-7aa6812092c2" testName="CreatingNumberOfDraftLetters_VerifyMoveUpButton(5)" computerName="EPBYMINW069C" duration="00:00:29.9720000" startTime="2021-08-24T23:38:03.0480755+03:00" endTime="2021-08-24T23:38:33.0198979+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fd2d6570-5485-4728-ae74-15c11622ccc5">
+      <Output>
+        <StdOut>2021-08-24 23:38:09,583 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Log in to the email - [Console]&#xD;
+2021-08-24 23:38:09,622 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.StartPage - The Start Page is open - [Console]&#xD;
+2021-08-24 23:38:11,344 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LoginPage - The Login Page is open - [Console]&#xD;
+2021-08-24 23:38:16,486 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.HomePage - The Home Page is open - [Console]&#xD;
+2021-08-24 23:38:17,851 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:38:20,445 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:38:22,991 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:38:25,203 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:38:27,371 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:38:29,594 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.DraftPage - The Draft Page is open - [Console]&#xD;
+2021-08-24 23:38:29,654 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Execution of postconditions - [Console]&#xD;
+2021-08-24 23:38:30,159 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - CreatingNumberOfDraftLetters_VerifyMoveUpButton(5) - Passed - [Console]&#xD;
+2021-08-24 23:38:30,159 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Log out - [Console]&#xD;
+2021-08-24 23:38:30,480 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.UserMenuPage - The UserMenu Page is open - [Console]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="33aaf05f-8abd-450d-a972-3e66f7b62e4e" testId="af6c1032-b736-bc39-22dc-9b9f37ea7ddb" testName="SendingDraftEmail_CheckDraftFolder" computerName="EPBYMINW069C" duration="00:00:32.3000000" startTime="2021-08-24T23:41:18.8449442+03:00" endTime="2021-08-24T23:41:51.1450754+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="33aaf05f-8abd-450d-a972-3e66f7b62e4e">
+      <Output>
+        <StdOut>2021-08-24 23:41:25,908 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Log in to the email - [Console]&#xD;
+2021-08-24 23:41:25,957 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.StartPage - The Start Page is open - [Console]&#xD;
+2021-08-24 23:41:27,890 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LoginPage - The Login Page is open - [Console]&#xD;
+2021-08-24 23:41:32,241 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.HomePage - The Home Page is open - [Console]&#xD;
+2021-08-24 23:41:33,045 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:41:35,552 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.DraftPage - The Draft Page is open - [Console]&#xD;
+2021-08-24 23:41:36,314 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:41:37,266 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.HomePage - The Home Page is open - [Console]&#xD;
+2021-08-24 23:41:37,368 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.DraftPage - The Draft Page is open - [Console]&#xD;
+2021-08-24 23:41:47,449 [NonParallelWorker] ERROR M11_Dzianis_Dukhnou.BaseElement - The element By.XPath: //span[@Title = 'yDrDILkwve'] is not displayed - [Console]&#xD;
+2021-08-24 23:41:47,450 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Execution of postconditions - [Console]&#xD;
+2021-08-24 23:41:48,043 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.SentPage - The Sent Page is open - [Console]&#xD;
+2021-08-24 23:41:48,531 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - SendingDraftEmail_CheckDraftFolder - Passed - [Console]&#xD;
+2021-08-24 23:41:48,531 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Log out - [Console]&#xD;
+2021-08-24 23:41:48,807 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.UserMenuPage - The UserMenu Page is open - [Console]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e18d6b7e-5f56-4d75-9719-fd80e13ef8f4" testId="76f15b1a-280b-5531-bfa4-aeec6ef4ba5f" testName="MoveLetterFromDraftToInput_VerifyInputFolder" computerName="EPBYMINW069C" duration="00:00:26.9680000" startTime="2021-08-24T23:40:51.8764987+03:00" endTime="2021-08-24T23:41:18.8449442+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e18d6b7e-5f56-4d75-9719-fd80e13ef8f4">
+      <Output>
+        <StdOut>2021-08-24 23:41:00,175 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Log in to the email - [Console]&#xD;
+2021-08-24 23:41:00,216 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.StartPage - The Start Page is open - [Console]&#xD;
+2021-08-24 23:41:02,342 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LoginPage - The Login Page is open - [Console]&#xD;
+2021-08-24 23:41:08,115 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.HomePage - The Home Page is open - [Console]&#xD;
+2021-08-24 23:41:09,506 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:41:12,744 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.DraftPage - The Draft Page is open - [Console]&#xD;
+2021-08-24 23:41:13,123 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.RightClickMenuPage - The RightClick Page is open - [Console]&#xD;
+2021-08-24 23:41:14,312 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.InboxPage - The Inbox Page is open - [Console]&#xD;
+2021-08-24 23:41:14,334 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Execution of postconditions - [Console]&#xD;
+2021-08-24 23:41:14,588 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.InboxPage - The Inbox Page is open - [Console]&#xD;
+2021-08-24 23:41:15,077 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - MoveLetterFromDraftToInput_VerifyInputFolder - Passed - [Console]&#xD;
+2021-08-24 23:41:15,078 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Log out - [Console]&#xD;
+2021-08-24 23:41:15,363 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.UserMenuPage - The UserMenu Page is open - [Console]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7ddd238c-12df-4868-b89f-3a4b4e6cfe19" testId="5275066f-f3ae-1d48-ee1f-85ccc1975400" testName="SendingDraftEmail_CheckSentFolder" computerName="EPBYMINW069C" duration="00:00:21.3950000" startTime="2021-08-24T23:41:51.1450754+03:00" endTime="2021-08-24T23:42:12.5403206+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7ddd238c-12df-4868-b89f-3a4b4e6cfe19">
+      <Output>
+        <StdOut>2021-08-24 23:41:57,173 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Log in to the email - [Console]&#xD;
+2021-08-24 23:41:57,398 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.StartPage - The Start Page is open - [Console]&#xD;
+2021-08-24 23:41:58,709 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LoginPage - The Login Page is open - [Console]&#xD;
+2021-08-24 23:42:02,742 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.HomePage - The Home Page is open - [Console]&#xD;
+2021-08-24 23:42:03,926 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:42:06,488 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.DraftPage - The Draft Page is open - [Console]&#xD;
+2021-08-24 23:42:07,100 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:42:08,495 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.HomePage - The Home Page is open - [Console]&#xD;
+2021-08-24 23:42:08,601 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.SentPage - The Sent Page is open - [Console]&#xD;
+2021-08-24 23:42:09,122 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Execution of postconditions - [Console]&#xD;
+2021-08-24 23:42:09,362 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.SentPage - The Sent Page is open - [Console]&#xD;
+2021-08-24 23:42:09,830 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - SendingDraftEmail_CheckSentFolder - Passed - [Console]&#xD;
+2021-08-24 23:42:09,830 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Log out - [Console]&#xD;
+2021-08-24 23:42:10,096 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.UserMenuPage - The UserMenu Page is open - [Console]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cef4b7d8-e184-42b1-92c5-143c3f9c9cf2" testId="b5b90ab5-7e0c-5746-57da-3d42bd3f9674" testName="CreatingDraftEmail_VerifyContent" computerName="EPBYMINW069C" duration="00:00:21.6590000" startTime="2021-08-24T23:39:18.6108669+03:00" endTime="2021-08-24T23:39:40.2700147+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cef4b7d8-e184-42b1-92c5-143c3f9c9cf2">
+      <Output>
+        <StdOut>2021-08-24 23:39:25,674 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Log in to the email - [Console]&#xD;
+2021-08-24 23:39:25,924 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.StartPage - The Start Page is open - [Console]&#xD;
+2021-08-24 23:39:27,480 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LoginPage - The Login Page is open - [Console]&#xD;
+2021-08-24 23:39:31,658 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.HomePage - The Home Page is open - [Console]&#xD;
+2021-08-24 23:39:32,855 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:39:35,279 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.DraftPage - The Draft Page is open - [Console]&#xD;
+2021-08-24 23:39:35,936 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:39:36,105 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Execution of postconditions - [Console]&#xD;
+2021-08-24 23:39:36,455 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.DraftPage - The Draft Page is open - [Console]&#xD;
+2021-08-24 23:39:36,999 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - CreatingDraftEmail_VerifyContent - Passed - [Console]&#xD;
+2021-08-24 23:39:36,999 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Log out - [Console]&#xD;
+2021-08-24 23:39:37,303 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.UserMenuPage - The UserMenu Page is open - [Console]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5f857b0d-8db2-4b7b-9b32-0093aa3ffda6" testId="a809814c-d08e-38bc-ff00-6396a7a04be4" testName="CreatingNumberOfDraftLetters_VerifyRightClickDelete(11)" computerName="EPBYMINW069C" duration="00:00:45.5750000" startTime="2021-08-24T23:38:33.0238869+03:00" endTime="2021-08-24T23:39:18.5998995+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5f857b0d-8db2-4b7b-9b32-0093aa3ffda6">
+      <Output>
+        <StdOut>2021-08-24 23:38:39,961 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Log in to the email - [Console]&#xD;
+2021-08-24 23:38:39,995 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.StartPage - The Start Page is open - [Console]&#xD;
+2021-08-24 23:38:41,791 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LoginPage - The Login Page is open - [Console]&#xD;
+2021-08-24 23:38:47,316 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.HomePage - The Home Page is open - [Console]&#xD;
+2021-08-24 23:38:48,600 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:38:51,276 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:38:53,665 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:38:56,040 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:38:58,210 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:39:00,499 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:39:02,662 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:39:04,866 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:39:07,056 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:39:09,356 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:39:11,622 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:39:13,925 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.DraftPage - The Draft Page is open - [Console]&#xD;
+2021-08-24 23:39:14,265 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.RightClickMenuPage - The RightClick Page is open - [Console]&#xD;
+2021-08-24 23:39:14,540 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.DraftPage - The Draft Page is open - [Console]&#xD;
+2021-08-24 23:39:14,569 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Execution of postconditions - [Console]&#xD;
+2021-08-24 23:39:15,083 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - CreatingNumberOfDraftLetters_VerifyRightClickDelete(11) - Passed - [Console]&#xD;
+2021-08-24 23:39:15,083 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Log out - [Console]&#xD;
+2021-08-24 23:39:15,341 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.UserMenuPage - The UserMenu Page is open - [Console]</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="CreatingNumberOfDraftLetters_VerifyRightClickDelete(11)" storage="c:\users\dzianis_dukhnou\source\repos\m11_dzianis_dukhnou\bin\debug\net472\m11_dzianis_dukhnou.dll" id="a809814c-d08e-38bc-ff00-6396a7a04be4">
+      <Execution id="5f857b0d-8db2-4b7b-9b32-0093aa3ffda6" />
+      <TestMethod codeBase="C:\Users\Dzianis_Dukhnou\source\repos\M11_Dzianis_Dukhnou\bin\Debug\net472\M11_Dzianis_Dukhnou.dll" adapterTypeName="executor://nunit3testexecutor/" className="M11_Dzianis_Dukhnou.Tests.TestCreatingNumberOfLetters" name="CreatingNumberOfDraftLetters_VerifyRightClickDelete(11)" />
+    </UnitTest>
+    <UnitTest name="MoveLetterFromDraftToInput_VerifyInputFolder" storage="c:\users\dzianis_dukhnou\source\repos\m11_dzianis_dukhnou\bin\debug\net472\m11_dzianis_dukhnou.dll" id="76f15b1a-280b-5531-bfa4-aeec6ef4ba5f">
+      <Execution id="e18d6b7e-5f56-4d75-9719-fd80e13ef8f4" />
+      <TestMethod codeBase="C:\Users\Dzianis_Dukhnou\source\repos\M11_Dzianis_Dukhnou\bin\Debug\net472\M11_Dzianis_Dukhnou.dll" adapterTypeName="executor://nunit3testexecutor/" className="M11_Dzianis_Dukhnou.Tests.TestRightClick" name="MoveLetterFromDraftToInput_VerifyInputFolder" />
+    </UnitTest>
+    <UnitTest name="MoveLetterFromDraftToInbox_VerifyDraftFolder" storage="c:\users\dzianis_dukhnou\source\repos\m11_dzianis_dukhnou\bin\debug\net472\m11_dzianis_dukhnou.dll" id="354bead6-69b9-350c-51a3-97d94041fdb0">
+      <Execution id="d413fd88-faf6-4275-b12e-67ef2231e195" />
+      <TestMethod codeBase="C:\Users\Dzianis_Dukhnou\source\repos\M11_Dzianis_Dukhnou\bin\Debug\net472\M11_Dzianis_Dukhnou.dll" adapterTypeName="executor://nunit3testexecutor/" className="M11_Dzianis_Dukhnou.Tests.TestRightClick" name="MoveLetterFromDraftToInbox_VerifyDraftFolder" />
+    </UnitTest>
+    <UnitTest name="Login" storage="c:\users\dzianis_dukhnou\source\repos\m11_dzianis_dukhnou\bin\debug\net472\m11_dzianis_dukhnou.dll" id="d0cdf345-d655-469a-adbb-671eb0c95de7">
+      <Execution id="0be7e50b-d64c-422a-9694-66fba36635ad" />
+      <TestMethod codeBase="C:\Users\Dzianis_Dukhnou\source\repos\M11_Dzianis_Dukhnou\bin\Debug\net472\M11_Dzianis_Dukhnou.dll" adapterTypeName="executor://nunit3testexecutor/" className="M11_Dzianis_Dukhnou.Tests.TestLogin" name="Login" />
+    </UnitTest>
+    <UnitTest name="SendingDraftEmail_CheckDraftFolder" storage="c:\users\dzianis_dukhnou\source\repos\m11_dzianis_dukhnou\bin\debug\net472\m11_dzianis_dukhnou.dll" id="af6c1032-b736-bc39-22dc-9b9f37ea7ddb">
+      <Execution id="33aaf05f-8abd-450d-a972-3e66f7b62e4e" />
+      <TestMethod codeBase="C:\Users\Dzianis_Dukhnou\source\repos\M11_Dzianis_Dukhnou\bin\Debug\net472\M11_Dzianis_Dukhnou.dll" adapterTypeName="executor://nunit3testexecutor/" className="M11_Dzianis_Dukhnou.Tests.TestSendEmail" name="SendingDraftEmail_CheckDraftFolder" />
+    </UnitTest>
+    <UnitTest name="CreatingDraftEmail_VerifyDarftFolder" storage="c:\users\dzianis_dukhnou\source\repos\m11_dzianis_dukhnou\bin\debug\net472\m11_dzianis_dukhnou.dll" id="bb7285ee-70f2-ebb9-d707-7eabaedc7d59">
+      <Execution id="c942973e-5636-4ec2-ba5d-4099f08b59c9" />
+      <TestMethod codeBase="C:\Users\Dzianis_Dukhnou\source\repos\M11_Dzianis_Dukhnou\bin\Debug\net472\M11_Dzianis_Dukhnou.dll" adapterTypeName="executor://nunit3testexecutor/" className="M11_Dzianis_Dukhnou.Tests.TestDraftEmail" name="CreatingDraftEmail_VerifyDarftFolder" />
+    </UnitTest>
+    <UnitTest name="CreatingNumberOfDraftLetters_VerifyMoveUpButton(5)" storage="c:\users\dzianis_dukhnou\source\repos\m11_dzianis_dukhnou\bin\debug\net472\m11_dzianis_dukhnou.dll" id="48fe5c1f-16bc-b39f-c518-7aa6812092c2">
+      <Execution id="fd2d6570-5485-4728-ae74-15c11622ccc5" />
+      <TestMethod codeBase="C:\Users\Dzianis_Dukhnou\source\repos\M11_Dzianis_Dukhnou\bin\Debug\net472\M11_Dzianis_Dukhnou.dll" adapterTypeName="executor://nunit3testexecutor/" className="M11_Dzianis_Dukhnou.Tests.TestCreatingNumberOfLetters" name="CreatingNumberOfDraftLetters_VerifyMoveUpButton(5)" />
+    </UnitTest>
+    <UnitTest name="SendingDraftEmail_CheckSentFolder" storage="c:\users\dzianis_dukhnou\source\repos\m11_dzianis_dukhnou\bin\debug\net472\m11_dzianis_dukhnou.dll" id="5275066f-f3ae-1d48-ee1f-85ccc1975400">
+      <Execution id="7ddd238c-12df-4868-b89f-3a4b4e6cfe19" />
+      <TestMethod codeBase="C:\Users\Dzianis_Dukhnou\source\repos\M11_Dzianis_Dukhnou\bin\Debug\net472\M11_Dzianis_Dukhnou.dll" adapterTypeName="executor://nunit3testexecutor/" className="M11_Dzianis_Dukhnou.Tests.TestSendEmail" name="SendingDraftEmail_CheckSentFolder" />
+    </UnitTest>
+    <UnitTest name="CreatingDraftEmail_VerifyContent" storage="c:\users\dzianis_dukhnou\source\repos\m11_dzianis_dukhnou\bin\debug\net472\m11_dzianis_dukhnou.dll" id="b5b90ab5-7e0c-5746-57da-3d42bd3f9674">
+      <Execution id="cef4b7d8-e184-42b1-92c5-143c3f9c9cf2" />
+      <TestMethod codeBase="C:\Users\Dzianis_Dukhnou\source\repos\M11_Dzianis_Dukhnou\bin\Debug\net472\M11_Dzianis_Dukhnou.dll" adapterTypeName="executor://nunit3testexecutor/" className="M11_Dzianis_Dukhnou.Tests.TestDraftEmail" name="CreatingDraftEmail_VerifyContent" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="354bead6-69b9-350c-51a3-97d94041fdb0" executionId="d413fd88-faf6-4275-b12e-67ef2231e195" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d0cdf345-d655-469a-adbb-671eb0c95de7" executionId="0be7e50b-d64c-422a-9694-66fba36635ad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bb7285ee-70f2-ebb9-d707-7eabaedc7d59" executionId="c942973e-5636-4ec2-ba5d-4099f08b59c9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="48fe5c1f-16bc-b39f-c518-7aa6812092c2" executionId="fd2d6570-5485-4728-ae74-15c11622ccc5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="af6c1032-b736-bc39-22dc-9b9f37ea7ddb" executionId="33aaf05f-8abd-450d-a972-3e66f7b62e4e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="76f15b1a-280b-5531-bfa4-aeec6ef4ba5f" executionId="e18d6b7e-5f56-4d75-9719-fd80e13ef8f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5275066f-f3ae-1d48-ee1f-85ccc1975400" executionId="7ddd238c-12df-4868-b89f-3a4b4e6cfe19" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b5b90ab5-7e0c-5746-57da-3d42bd3f9674" executionId="cef4b7d8-e184-42b1-92c5-143c3f9c9cf2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a809814c-d08e-38bc-ff00-6396a7a04be4" executionId="5f857b0d-8db2-4b7b-9b32-0093aa3ffda6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="9" executed="9" passed="9" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 3.17.0.0: Test execution started&#xD;
+Running selected tests in C:\Users\Dzianis_Dukhnou\source\repos\M11_Dzianis_Dukhnou\bin\Debug\net472\M11_Dzianis_Dukhnou.dll&#xD;
+   NUnit3TestExecutor discovered 9 of 9 NUnit test cases&#xD;
+2021-08-24 23:38:09,583 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Log in to the email - [Console]&#xD;
+2021-08-24 23:38:09,622 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.StartPage - The Start Page is open - [Console]&#xD;
+2021-08-24 23:38:11,344 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LoginPage - The Login Page is open - [Console]&#xD;
+2021-08-24 23:38:16,486 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.HomePage - The Home Page is open - [Console]&#xD;
+2021-08-24 23:38:17,851 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:38:20,445 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:38:22,991 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:38:25,203 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:38:27,371 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:38:29,594 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.DraftPage - The Draft Page is open - [Console]&#xD;
+2021-08-24 23:38:29,654 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Execution of postconditions - [Console]&#xD;
+2021-08-24 23:38:30,159 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - CreatingNumberOfDraftLetters_VerifyMoveUpButton(5) - Passed - [Console]&#xD;
+2021-08-24 23:38:30,159 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Log out - [Console]&#xD;
+2021-08-24 23:38:30,480 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.UserMenuPage - The UserMenu Page is open - [Console]&#xD;
+&#xD;
+2021-08-24 23:38:39,961 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Log in to the email - [Console]&#xD;
+2021-08-24 23:38:39,995 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.StartPage - The Start Page is open - [Console]&#xD;
+2021-08-24 23:38:41,791 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LoginPage - The Login Page is open - [Console]&#xD;
+2021-08-24 23:38:47,316 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.HomePage - The Home Page is open - [Console]&#xD;
+2021-08-24 23:38:48,600 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:38:51,276 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:38:53,665 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:38:56,040 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:38:58,210 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:39:00,499 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:39:02,662 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:39:04,866 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:39:07,056 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:39:09,356 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:39:11,622 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:39:13,925 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.DraftPage - The Draft Page is open - [Console]&#xD;
+2021-08-24 23:39:14,265 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.RightClickMenuPage - The RightClick Page is open - [Console]&#xD;
+2021-08-24 23:39:14,540 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.DraftPage - The Draft Page is open - [Console]&#xD;
+2021-08-24 23:39:14,569 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Execution of postconditions - [Console]&#xD;
+2021-08-24 23:39:15,083 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - CreatingNumberOfDraftLetters_VerifyRightClickDelete(11) - Passed - [Console]&#xD;
+2021-08-24 23:39:15,083 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Log out - [Console]&#xD;
+2021-08-24 23:39:15,341 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.UserMenuPage - The UserMenu Page is open - [Console]&#xD;
+&#xD;
+2021-08-24 23:39:25,674 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Log in to the email - [Console]&#xD;
+2021-08-24 23:39:25,924 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.StartPage - The Start Page is open - [Console]&#xD;
+2021-08-24 23:39:27,480 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LoginPage - The Login Page is open - [Console]&#xD;
+2021-08-24 23:39:31,658 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.HomePage - The Home Page is open - [Console]&#xD;
+2021-08-24 23:39:32,855 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:39:35,279 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.DraftPage - The Draft Page is open - [Console]&#xD;
+2021-08-24 23:39:35,936 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:39:36,105 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Execution of postconditions - [Console]&#xD;
+2021-08-24 23:39:36,455 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.DraftPage - The Draft Page is open - [Console]&#xD;
+2021-08-24 23:39:36,999 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - CreatingDraftEmail_VerifyContent - Passed - [Console]&#xD;
+2021-08-24 23:39:36,999 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Log out - [Console]&#xD;
+2021-08-24 23:39:37,303 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.UserMenuPage - The UserMenu Page is open - [Console]&#xD;
+&#xD;
+2021-08-24 23:39:46,744 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Log in to the email - [Console]&#xD;
+2021-08-24 23:39:47,071 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.StartPage - The Start Page is open - [Console]&#xD;
+2021-08-24 23:39:48,388 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LoginPage - The Login Page is open - [Console]&#xD;
+2021-08-24 23:39:53,032 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.HomePage - The Home Page is open - [Console]&#xD;
+2021-08-24 23:39:54,320 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:39:56,986 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.DraftPage - The Draft Page is open - [Console]&#xD;
+2021-08-24 23:39:57,020 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Execution of postconditions - [Console]&#xD;
+2021-08-24 23:39:57,287 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.DraftPage - The Draft Page is open - [Console]&#xD;
+2021-08-24 23:39:57,786 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - CreatingDraftEmail_VerifyDarftFolder - Passed - [Console]&#xD;
+2021-08-24 23:39:57,786 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Log out - [Console]&#xD;
+2021-08-24 23:39:58,061 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.UserMenuPage - The UserMenu Page is open - [Console]&#xD;
+&#xD;
+2021-08-24 23:40:09,364 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Log in to the email - [Console]&#xD;
+2021-08-24 23:40:09,419 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.StartPage - The Start Page is open - [Console]&#xD;
+2021-08-24 23:40:11,334 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LoginPage - The Login Page is open - [Console]&#xD;
+2021-08-24 23:40:15,329 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.HomePage - The Home Page is open - [Console]&#xD;
+2021-08-24 23:40:15,360 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Login - Passed - [Console]&#xD;
+2021-08-24 23:40:15,360 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Log out - [Console]&#xD;
+2021-08-24 23:40:15,815 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.UserMenuPage - The UserMenu Page is open - [Console]&#xD;
+&#xD;
+2021-08-24 23:40:26,534 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Log in to the email - [Console]&#xD;
+2021-08-24 23:40:26,592 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.StartPage - The Start Page is open - [Console]&#xD;
+2021-08-24 23:40:27,883 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LoginPage - The Login Page is open - [Console]&#xD;
+2021-08-24 23:40:32,521 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.HomePage - The Home Page is open - [Console]&#xD;
+2021-08-24 23:40:33,393 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:40:36,381 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.DraftPage - The Draft Page is open - [Console]&#xD;
+2021-08-24 23:40:36,760 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.RightClickMenuPage - The RightClick Page is open - [Console]&#xD;
+2021-08-24 23:40:47,347 [NonParallelWorker] ERROR M11_Dzianis_Dukhnou.BaseElement - The element By.XPath: //span[@Title = 'ClClJcgvkNPDWDA'] is not displayed - [Console]&#xD;
+2021-08-24 23:40:47,347 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Execution of postconditions - [Console]&#xD;
+2021-08-24 23:40:47,962 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.InboxPage - The Inbox Page is open - [Console]&#xD;
+2021-08-24 23:40:48,462 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - MoveLetterFromDraftToInbox_VerifyDraftFolder - Passed - [Console]&#xD;
+2021-08-24 23:40:48,462 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Log out - [Console]&#xD;
+2021-08-24 23:40:48,748 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.UserMenuPage - The UserMenu Page is open - [Console]&#xD;
+&#xD;
+2021-08-24 23:41:00,175 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Log in to the email - [Console]&#xD;
+2021-08-24 23:41:00,216 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.StartPage - The Start Page is open - [Console]&#xD;
+2021-08-24 23:41:02,342 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LoginPage - The Login Page is open - [Console]&#xD;
+2021-08-24 23:41:08,115 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.HomePage - The Home Page is open - [Console]&#xD;
+2021-08-24 23:41:09,506 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:41:12,744 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.DraftPage - The Draft Page is open - [Console]&#xD;
+2021-08-24 23:41:13,123 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.RightClickMenuPage - The RightClick Page is open - [Console]&#xD;
+2021-08-24 23:41:14,312 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.InboxPage - The Inbox Page is open - [Console]&#xD;
+2021-08-24 23:41:14,334 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Execution of postconditions - [Console]&#xD;
+2021-08-24 23:41:14,588 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.InboxPage - The Inbox Page is open - [Console]&#xD;
+2021-08-24 23:41:15,077 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - MoveLetterFromDraftToInput_VerifyInputFolder - Passed - [Console]&#xD;
+2021-08-24 23:41:15,078 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Log out - [Console]&#xD;
+2021-08-24 23:41:15,363 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.UserMenuPage - The UserMenu Page is open - [Console]&#xD;
+&#xD;
+2021-08-24 23:41:25,908 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Log in to the email - [Console]&#xD;
+2021-08-24 23:41:25,957 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.StartPage - The Start Page is open - [Console]&#xD;
+2021-08-24 23:41:27,890 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LoginPage - The Login Page is open - [Console]&#xD;
+2021-08-24 23:41:32,241 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.HomePage - The Home Page is open - [Console]&#xD;
+2021-08-24 23:41:33,045 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:41:35,552 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.DraftPage - The Draft Page is open - [Console]&#xD;
+2021-08-24 23:41:36,314 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:41:37,266 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.HomePage - The Home Page is open - [Console]&#xD;
+2021-08-24 23:41:37,368 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.DraftPage - The Draft Page is open - [Console]&#xD;
+2021-08-24 23:41:47,449 [NonParallelWorker] ERROR M11_Dzianis_Dukhnou.BaseElement - The element By.XPath: //span[@Title = 'yDrDILkwve'] is not displayed - [Console]&#xD;
+2021-08-24 23:41:47,450 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Execution of postconditions - [Console]&#xD;
+2021-08-24 23:41:48,043 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.SentPage - The Sent Page is open - [Console]&#xD;
+2021-08-24 23:41:48,531 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - SendingDraftEmail_CheckDraftFolder - Passed - [Console]&#xD;
+2021-08-24 23:41:48,531 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Log out - [Console]&#xD;
+2021-08-24 23:41:48,807 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.UserMenuPage - The UserMenu Page is open - [Console]&#xD;
+&#xD;
+2021-08-24 23:41:57,173 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Log in to the email - [Console]&#xD;
+2021-08-24 23:41:57,398 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.StartPage - The Start Page is open - [Console]&#xD;
+2021-08-24 23:41:58,709 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LoginPage - The Login Page is open - [Console]&#xD;
+2021-08-24 23:42:02,742 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.HomePage - The Home Page is open - [Console]&#xD;
+2021-08-24 23:42:03,926 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:42:06,488 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.DraftPage - The Draft Page is open - [Console]&#xD;
+2021-08-24 23:42:07,100 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.LetterPage - The Letter Page is open - [Console]&#xD;
+2021-08-24 23:42:08,495 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.HomePage - The Home Page is open - [Console]&#xD;
+2021-08-24 23:42:08,601 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.SentPage - The Sent Page is open - [Console]&#xD;
+2021-08-24 23:42:09,122 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Execution of postconditions - [Console]&#xD;
+2021-08-24 23:42:09,362 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.SentPage - The Sent Page is open - [Console]&#xD;
+2021-08-24 23:42:09,830 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - SendingDraftEmail_CheckSentFolder - Passed - [Console]&#xD;
+2021-08-24 23:42:09,830 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Log out - [Console]&#xD;
+2021-08-24 23:42:10,096 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.WebObjects.UserMenuPage - The UserMenu Page is open - [Console]&#xD;
+&#xD;
+NUnit Adapter 3.17.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="EPBYMINW069C" outcome="Warning" timestamp="2021-08-24T23:38:01.7953669+03:00">
+        <Text>Multiple versions of same extension found. Selecting the highest version.&#xD;
+  NUnit3.TestAdapter : 3.17.0.0</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>

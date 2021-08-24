@@ -1,0 +1,75 @@
+﻿2021-08-15 17:18:13,100 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been started!!!
+2021-08-15 17:18:45,414 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - TestDraftEmail - Failed(Child)
+2021-08-15 17:18:45,414 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been finished!!!
+2021-08-15 17:19:36,543 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been started!!!
+2021-08-15 17:19:50,638 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - CreatingDraftEmail_VerifyContent - Passed
+2021-08-15 17:20:06,966 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - CreatingDraftEmail_VerifyDarftFolder - Passed
+2021-08-15 17:20:09,838 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been finished!!!
+2021-08-15 19:24:19,349 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been started!!!
+2021-08-15 19:24:29,404 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Login - Passed
+2021-08-15 19:24:32,061 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been finished!!!
+2021-08-15 19:36:11,585 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been started!!!
+2021-08-15 19:36:21,347 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Login - Passed
+2021-08-15 19:36:24,026 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been finished!!!
+2021-08-15 19:37:19,039 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been started!!!
+2021-08-15 19:37:28,589 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Login - Passed
+2021-08-15 19:37:31,525 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been finished!!!
+2021-08-15 19:43:49,932 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been started!!!
+2021-08-15 19:43:59,802 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Login - Passed
+2021-08-15 19:44:02,374 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been finished!!!
+2021-08-15 19:51:33,563 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been started!!!
+2021-08-15 19:51:43,304 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Login - Passed
+2021-08-15 19:51:45,969 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been finished!!!
+2021-08-15 19:52:21,168 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been started!!!
+2021-08-15 19:52:30,779 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Login - Passed
+2021-08-15 19:52:33,342 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been finished!!!
+2021-08-15 19:53:36,396 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been started!!!
+2021-08-15 19:53:45,966 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Login - Passed
+2021-08-15 19:53:48,514 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been finished!!!
+2021-08-15 20:57:45,148 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been started!!!
+2021-08-15 20:58:07,442 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - CreatingNumberOfDraftLetters_VerifyMoveUpButton(5) - Passed
+2021-08-15 20:58:46,319 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - CreatingNumberOfDraftLetters_VerifyRightClickDelete(11) - Failed
+2021-08-15 20:58:49,565 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been finished!!!
+2021-08-15 20:58:49,566 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been started!!!
+2021-08-15 20:59:04,217 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - CreatingDraftEmail_VerifyContent - Passed
+2021-08-15 20:59:20,563 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - CreatingDraftEmail_VerifyDarftFolder - Failed:Error
+2021-08-15 20:59:23,649 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been finished!!!
+2021-08-15 20:59:23,649 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been started!!!
+2021-08-15 20:59:33,531 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Login - Passed
+2021-08-15 20:59:36,451 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been finished!!!
+2021-08-15 20:59:36,451 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been started!!!
+2021-08-15 21:00:02,643 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - MoveLetterFromDraftToInbox_VerifyDraftFolder - Passed
+2021-08-15 21:00:21,074 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - MoveLetterFromDraftToInput_VerifyInputFolder - Passed
+2021-08-15 21:00:23,880 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been finished!!!
+2021-08-15 21:00:23,880 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been started!!!
+2021-08-15 21:00:51,133 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - SendingDraftEmail_CheckDraftFolder - Passed
+2021-08-15 21:01:09,418 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - SendingDraftEmail_CheckSentFolder - Passed
+2021-08-15 21:01:12,213 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been finished!!!
+2021-08-15 21:34:54,167 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been started!!!
+2021-08-15 21:35:04,040 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Login - Passed
+2021-08-15 21:35:06,589 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been finished!!!
+2021-08-15 21:36:27,213 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been started!!!
+2021-08-15 21:36:36,838 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Login - Passed
+2021-08-15 21:36:39,374 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been finished!!!
+2021-08-15 21:41:31,291 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been started!!!
+2021-08-15 21:41:41,029 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Login - Passed
+2021-08-15 21:41:43,562 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been finished!!!
+2021-08-15 22:24:07,377 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been started!!!
+2021-08-15 22:24:30,357 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - CreatingNumberOfDraftLetters_VerifyMoveUpButton(5) - Passed
+2021-08-15 22:25:08,690 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - CreatingNumberOfDraftLetters_VerifyRightClickDelete(11) - Passed
+2021-08-15 22:25:11,331 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been finished!!!
+2021-08-15 22:25:11,333 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been started!!!
+2021-08-15 22:25:25,637 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - CreatingDraftEmail_VerifyContent - Passed
+2021-08-15 22:25:42,255 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - CreatingDraftEmail_VerifyDarftFolder - Passed
+2021-08-15 22:25:45,069 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been finished!!!
+2021-08-15 22:25:45,069 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been started!!!
+2021-08-15 22:25:55,135 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - Login - Passed
+2021-08-15 22:25:58,151 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been finished!!!
+2021-08-15 22:25:58,151 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been started!!!
+2021-08-15 22:26:23,068 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - MoveLetterFromDraftToInbox_VerifyDraftFolder - Passed
+2021-08-15 22:26:40,526 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - MoveLetterFromDraftToInput_VerifyInputFolder - Passed
+2021-08-15 22:26:43,426 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been finished!!!
+2021-08-15 22:26:43,426 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been started!!!
+2021-08-15 22:27:09,620 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - SendingDraftEmail_CheckDraftFolder - Passed
+2021-08-15 22:27:28,135 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - SendingDraftEmail_CheckSentFolder - Passed
+2021-08-15 22:27:31,025 [NonParallelWorker] INFO M11_Dzianis_Dukhnou.BaseTest - !!!Execution of test(s) have been finished!!!

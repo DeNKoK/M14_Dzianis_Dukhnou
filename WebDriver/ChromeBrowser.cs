@@ -9,7 +9,7 @@ namespace M11_Dzianis_Dukhnou.WebDriver
         private IWebDriver _driver = null;
         private readonly int _timeOutSec;
 
-        public IWebDriver driver
+        public IWebDriver Driver
         {
             get
             {
@@ -21,7 +21,7 @@ namespace M11_Dzianis_Dukhnou.WebDriver
                         (
                         service,
                         options,
-                        TimeSpan.FromSeconds(timeOutSec)
+                        TimeSpan.FromSeconds(TimeOutSec)
                         );
                 }
 
@@ -29,7 +29,7 @@ namespace M11_Dzianis_Dukhnou.WebDriver
             }
         }
 
-        public int timeOutSec
+        public int TimeOutSec
         {
             get
             {

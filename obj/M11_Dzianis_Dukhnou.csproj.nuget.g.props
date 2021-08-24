@@ -26,5 +26,6 @@
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgWebDriverChromeDriver Condition=" '$(PkgWebDriverChromeDriver)' == '' ">C:\Users\Dzianis_Dukhnou\.nuget\packages\webdriverchromedriver\2.10.0</PkgWebDriverChromeDriver>
     <PkgBoDi Condition=" '$(PkgBoDi)' == '' ">C:\Users\Dzianis_Dukhnou\.nuget\packages\bodi\1.5.0</PkgBoDi>
+    <PkgReportUnit Condition=" '$(PkgReportUnit)' == '' ">C:\Users\Dzianis_Dukhnou\.nuget\packages\reportunit\1.2.1</PkgReportUnit>
   </PropertyGroup>
 </Project>

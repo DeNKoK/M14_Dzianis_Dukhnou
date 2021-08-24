@@ -1,4 +1,5 @@
-﻿using OpenQA.Selenium;
+﻿using log4net;
+using OpenQA.Selenium;
 
 namespace M11_Dzianis_Dukhnou.WebObjects
 {
@@ -6,7 +7,12 @@ namespace M11_Dzianis_Dukhnou.WebObjects
     {
         private static readonly By StartPageLocator = By.XPath("//div[contains(@title, 'Это спам!')]");
 
-        public InboxPage() : base(StartPageLocator, "Inbox Page") { }
+        private static ILog Log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+
+        public InboxPage() : base(StartPageLocator, "Inbox Page") 
+        {
+            Log.Info($"The {_title} is open");
+        }
 
         private readonly BaseElement _selectAllCheckBox = new BaseElement(By.XPath("//span[@class = 'checkbox_view']"));
         private readonly BaseElement _deleteButton = new BaseElement(By.XPath("//div[contains(@title, 'Delete')]"));
